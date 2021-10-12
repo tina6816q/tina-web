@@ -1,0 +1,161 @@
+.space{
+    width: 100%;
+    height: 120px;
+    overflow: hidden;
+}
+.space img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position:center;
+}
+/* .space{
+    width: 100%;
+    height: 120px;
+    background: url("../img/2.jpg") no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    background-position: center;
+} */
+
+/* --------------- */
+.project-btn{
+    margin: 80px auto;
+    text-align: center;
+}
+.project-btn ul{
+    max-width: 600px;
+    width: 90%;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.project-btn ul li a{
+    border: 1px solid #ccc;
+    padding: 5px 15px;
+    width: 140px;
+    display: block;
+    color: #707070;
+    transition: .2s;
+}
+.project-btn ul li a:hover{
+    background: #d6d6d6;
+    text-decoration: none;
+}
+/* ------------------ */
+h2{
+    font-size: 22px;
+    text-align: center;
+    font-weight: 600;
+}
+h4{
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.web-wrapper{
+    width: 90%;
+    margin: 0 auto;
+}
+.web-wrapper ul li{
+    width: 33.3%;
+    /* background: rgb(168, 168, 168); */
+
+    
+}
+.web-wrapper ul li a{
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+    background: rgb(223, 208, 211);
+    border: 1px solid #ccc;
+    position: relative;
+
+}
+.web-img img{
+    width: 100%;
+    height: 100%;
+
+}
+/* ----滑鼠移動內容---- */
+.web-wrapper .hide{
+    position: absolute; 
+    bottom: 0; 
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); 
+    color: #f1f1f1; 
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 15px;
+    text-align: center;
+    /* ---外加--- */
+    height: 100%;
+    padding-top: 95px;
+}
+  
+.web-wrapper a:hover .hide {
+    opacity: 1;
+}
+
+
+/* ------------- */
+
+.below{
+    margin-top: 90px;
+}
+.web-wrapper ul{
+    flex-wrap: wrap;
+}
+.web-wrapper ul li{
+    margin-bottom: 30px;
+}
+
+.footer{
+    margin-top: 80px;
+}
+
+
+@media screen and (max-width:1024px){
+
+    .web-wrapper ul li{
+        width: 50%;
+    }
+    .web-wrapper{
+        width: 100%;
+    }
+    .below{
+        margin-top: 30px;
+    }
+
+}
+@media screen and (max-width:700px){
+    .web-wrapper ul li{
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width:550px){
+    .project-btn{
+        font-size: 13px;
+    }
+    .project-btn ul li a{
+        width: 100px;
+    }
+    .project-btn ul{
+        max-width: 350px;
+    }
+    h2{
+        font-size: 20px;
+    }
+    .project-btn{
+        margin: 50px auto;
+
+    }
+    
+    
+
+}

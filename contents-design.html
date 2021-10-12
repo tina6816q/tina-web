@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="fontawesome-free-5.9.0-web/css/all.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="reset.css">
+
+    <!-- 個別css放下面 -->
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/nav-web.css">
+
+
+</head>
+<body>
+    <div class="menu">
+        <div class="container">
+
+            <div class="nav-wrapper d-flex">
+                <div class="logo">
+                    <a href="index.html"><img src="img/logo.svg" alt=""></a>
+                </div>
+    
+                <div class="nav-list">
+
+                    <div class="nav_show_on_desk nav-text">
+                        <ul class="d-flex">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="design.html">Design</a></li>
+                            <li><a href="connection.html">Connection</a></li>
+                        </ul>
+
+                    </div>
+
+
+                    <!-- -------手機漢堡紐-------------- -->
+
+
+                    <div class="burger nav_show_on_mobile">
+                        <span></span>
+                    </div>
+                      
+                      <nav>
+
+
+
+                        <ul class="main">
+                            
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="design.html">Design</a></li>
+                            <li><a href="connection.html">Connection</a></li>
+
+                          
+                        </ul>
+
+                        
+                      </nav>
+
+                       <!------底部遮罩---- -->
+                      <div class="overlay"></div>
+    
+                </div>
+                
+    
+            </div>
+    
+        </div>
+
+    </div>
+
+    <!-- ------------------------空格-------------------------- -->
+    <div class="block"></div>
+
+    <!-- ---------------------- -->
+    <div class="container">
+
+        <div class="bread-crumbs d-flex">
+            <a href="design.html">Design</a>
+            <span>/</span>
+            <p>型錄設計</p>
+
+        </div>
+
+        <div class="design-wrapper">
+            <h2>型錄設計</h2>
+
+            <div class="design-pt">
+                <img src="img/52.jpg" alt="">
+
+                <img src="img/53.jpg" alt="">
+
+                <img src="img/54.jpg" alt="">
+
+                <img src="img/55.jpg" alt="">
+
+                <img src="img/56.jpg" alt="">
+
+                <img src="img/57.jpg" alt="">
+
+            </div>
+
+        </div>
+        
+
+    </div>
+
+    <!-- ----------------------- -->
+
+    <!-- <div class="container d-flex btn-wrapper">
+        <div class="button btn"><a href="">回前頁</a></div>
+        <div class="button btn"><a href="">前往官網</a></div>
+
+    </div> -->
+
+
+    <div class="container d-flex btn-wrapper">
+        <div class="button btn"><a href="design.html">回前頁</a></div>
+
+    </div>
+
+
+
+     <!-- back to top btn -->
+     <a class="WY-backTop" id="WY-topBtn">
+        <img src="img/back-top-btn.svg" alt="回到頁首按鈕">
+    </a>
+    
+
+
+    <!-- --------------頁首--------------- -->
+
+    <div class="footer">
+        <div class="container">
+            
+            <div class="find">
+                <h6>For any question, <br>
+                    Contact me</h6>
+
+                <div class="find-text">
+                    <span>BY MAIL</span>
+                    <p>hwu1021409039@gmail.com</p>
+
+                    <span>Contact me</span>
+                    <p>0988542502</p>
+
+                </div>
+
+
+            </div>
+    
+
+        </div>
+        
+    </div>
+
+    
+
+
+
+
+
+
+
+
+    <!-- script -->
+
+    <script src="lib/jquery-3.4.1.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+
+    <!-- --back-top--- -->
+    <script src="lib/g_move.js"></script>
+
+     <!-- --------漢堡紐----------- -->
+     <script>
+        $('.burger, .overlay').click(function(){
+        $('.burger').toggleClass('clicked');
+        $('.overlay').toggleClass('show');
+        $('nav').toggleClass('show');
+        $('body').toggleClass('overflow');
+        });
+    </script>
+    
+</body>
+</html>

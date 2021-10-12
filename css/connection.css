@@ -1,0 +1,108 @@
+.base-map{
+    width: 100%;
+    height: 90vh;
+    overflow: hidden;
+    position: relative;
+}
+.base-map img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-wrapper{
+    width: 900px;
+    background: #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+/* 卡片內容物 */
+.card-wrapper ul li:nth-child(1){
+    width: 40%;
+
+}
+.card-wrapper ul li:nth-child(2){
+    width: 60%;
+
+}
+.card-pt{
+    width: 100%;
+    overflow: hidden;
+}
+.card-pt img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-news{
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 160px;
+
+}
+.card-news h5{
+    font-size: 30px;
+    font-family: 'Libre Baskerville', serif;
+}
+.card-news a{
+    color: #7B7B7B;
+}
+.card-news a:hover{
+    color: #b4b3b3;
+}
+.card-news p{
+    margin: 10px 0;
+}
+
+
+.footer{
+    margin-top: 0;
+}
+
+
+
+@media screen and (max-width:1100px){
+    .card-wrapper{
+        width: 85%;
+    }
+    .card-news{
+        margin-top: 25%;
+    }
+
+}
+@media screen and (max-width:750px){
+    .card-wrapper ul{
+        flex-wrap: wrap;
+    }
+    .card-wrapper ul li:nth-child(1) , .card-wrapper ul li:nth-child(2){
+        width: 100%;
+    }
+    .card-pt{
+        height: 250px;
+    }
+    .card-news{
+        margin-top: 0%;
+        padding: 30px 30px 50px;
+    }
+
+
+}
+@media screen and (max-width:550px){
+    .card-news{
+        font-size: 13px;
+    }
+    .icon-1{
+        width: 30px;
+        height: 30px;
+    }
+    .card-news{
+        padding: 30px 0px 50px;
+    }
+    .card-news h5{
+        font-size: 24px;
+    }
+}

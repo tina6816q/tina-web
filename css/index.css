@@ -1,0 +1,282 @@
+.banner {
+    width: 100%;
+    height: 85vh;
+    overflow: hidden;
+    position: relative;
+}
+.banner img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* .banner{
+    background: url("../img/4.jpg") no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    width: 100%;
+    height: 85vh;
+} */
+.little-bn{
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    max-width: 250px;
+    transform: translateX(-50%);
+}
+.little-bn img{
+    width: 100%;
+    height: 100%;
+}
+.bn-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    text-align: center;
+    
+}
+.bn-text h2{
+    font-size: 120px;
+    font-family: 'Scheherazade New', serif;
+
+}
+@media screen and (max-width:550px){
+    .bn-text h2{
+        font-size: 60px;
+    }
+}
+
+/* ------------------ */
+.work-wrapper h3{
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 50px;
+
+}
+.work-wrapper h5{
+    font-size: 14px;
+    text-align: center;
+}
+
+.work ul{
+    width: 90%;
+    margin: 40px auto;
+}
+.work ul li{
+    width: 33.3%;
+}
+.work ul li a{
+    width: 95%;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+}
+.work ul li a img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.work .hide{
+    position: absolute; 
+    bottom: 0; 
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); 
+    color: #f1f1f1; 
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .work a:hover .hide {
+    opacity: 1;
+  }
+
+.work-wrapper .button {
+    text-align: center;
+
+  }
+  .work-wrapper .button a{
+      width: 150px;
+      display: block;
+      margin: 0 auto;
+
+  }
+.work-wrapper .button a:hover{
+    background: #91989F;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+@media screen and (max-width:1024px){
+    .disappear{
+        display: none;
+    }
+    .work ul li{
+        width: 50%;
+    }
+
+}
+@media screen and (max-width:600px){
+    .work ul {
+       flex-wrap: wrap;
+       margin-bottom: 20px;
+    }
+    .work ul li{
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    .work ul li a{
+        width: 100%;
+    }
+
+}
+@media screen and (max-width:550px){
+    .work-wrapper .button a{
+        font-size: 13px;
+
+    }
+
+}
+
+/* --------------------------- */
+.about-wrapper{
+    width: 100%;
+    /* background: rgb(184, 184, 184); */
+    margin: 90px 0 0;
+    position: relative;
+    height: 800px;
+}
+.about-wrapper ul li{
+    width: 50%;
+}
+
+/* ---------------- */
+.about-pt{
+    justify-content: space-between;
+    height: 800px;
+}
+
+.about-pt-right{
+    width: 600px;
+    background: #f8b8b8;
+    border-radius: 250px 0 0 0;
+    overflow: hidden;
+    
+}
+.about-go{
+    position: absolute;
+    top: 57%;
+    left: 50%;
+    transform: translateX(-50%);
+
+    
+
+}
+.about-go .button{
+    margin: 40px auto ;
+    text-align: center;
+}
+
+.about-pt-right img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.about-bn{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    width: 900px;
+    transform: translateX(-50%);
+}
+.about-bn img{
+    width: 100%;
+    height: 100%;
+}
+
+.about-wrapper .button a{
+    width: 150px;
+    display: inline-block;
+    text-align: center;
+    
+
+}
+
+.about-wrapper .button a:hover{
+    background: #91989F;
+    color: #ffffff;
+    text-decoration: none;
+}
+.show_on_mobile-about{
+    display: none;
+
+}
+
+@media screen and (max-width:1100px){
+    .about-bn{
+        width: 70%;
+    }
+
+}
+@media screen and (max-width:800px){
+    .show_on_desk-about{
+        display: none;
+    }
+    .show_on_mobile-about{
+        display: block;
+    }
+    .about-pt-phone{
+        width: 100%;
+        height: 300px;
+        overflow: hidden;
+        margin-top: 100px;
+    }
+    .about-pt-phone img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .about-bn-phone{
+        max-width: 450px;
+        width: 90%;
+        margin: 30px auto 20px;
+    }
+    .about-bn-phone img{
+        width: 100%;
+    }
+    .about-go-phone{
+        text-align: center;
+    }
+    .about-go-phone .button{
+        margin-top: 30px;
+    }
+    .about-go-phone .button a:hover{
+        background: #91989F;
+        color: #ffffff;
+        text-decoration: none;
+    }
+    .footer{
+        margin-top: 80px;
+    }
+
+
+}
+@media screen and (max-width:550px){
+    .about-wrapper-phone{
+        font-size: 13px;
+    }
+    .about-go-phone .button a{
+        width: 40%;
+        display: block;
+        margin: 0 auto;
+    }
+}

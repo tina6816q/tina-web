@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="56" height="72.769" viewBox="0 0 56 72.769">
+  <g id="Group_148" data-name="Group 148" transform="translate(-1335 -1059)">
+    <g id="Polygon_3" data-name="Polygon 3" transform="translate(1340.538 1059)" fill="#3d3d3d">
+      <path d="M 36.51137161254883 31.34615707397461 L 0.8732453584671021 31.34615707397461 L 18.69230842590332 0.987750768661499 L 36.51137161254883 31.34615707397461 Z" stroke="none"/>
+      <path d="M 18.69230842590332 1.975505828857422 L 1.746490478515625 30.84615707397461 L 35.63812637329102 30.84615707397461 L 18.69230842590332 1.975505828857422 M 18.69230842590332 -3.814697265625e-06 L 37.38461685180664 31.84615707397461 L 0 31.84615707397461 L 18.69230842590332 -3.814697265625e-06 Z" stroke="none" fill="#707070"/>
+    </g>
+    <text id="TOP" transform="translate(1335 1125.769)" fill="#3d3d3d" font-size="26" font-family="Helvetica" letter-spacing="0.05em"><tspan x="0" y="0">TOP</tspan></text>
+  </g>
+</svg>

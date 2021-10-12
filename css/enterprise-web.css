@@ -1,0 +1,6 @@
+.design-pt div{
+    margin-bottom: 20px;
+}
+.design-pt div:last-child{
+    margin-bottom: 0;
+}
